@@ -1,0 +1,23 @@
+primary = [
+    'Head, Neck', 'Head, Neck', 'Lung', 'Uterine', 'Lung', 'Carcinoma', 'Prostate ', 'Prostate', 'Colon', 'Colon',
+    'Metastatic', 'Carcinoma', 'Lung', 'Sarcoma', 'Sarcoma', 'Carcinoma', 'Pancreatic', 'Bladder', 'Lung', 'Colon',
+    'Vaginal', 'Lung', 'Lung', 'Lymphoma', 'Leukemia', 'Trachea', 'Lymphoma', 'Lung', 'Carcinoma', 'Melanoma',
+    'Lung', 'Lymphoma', 'Carcinoma', 'Lung', 'Lung', 'Sarcoma', 'Carcinoma', 'Lung', 'Leukemia', 'Ovaries',
+    'Carcinoma', 'Bones', 'Lung', 'Metastatic', 'Colon', 'Lung', 'Colon', 'Sarcoma', 'Prostate', 'Lung, Lymphoma',
+    'Sarcoma', 'Metastatic', 'Rectum', 'Lung', 'Breast', 'Lung', 'Colon', 'Lung', 'Leukemia', 'Thyroid', 'Carcinoma',
+    'Sarcoma', 'Sarcoma', 'Carcinoid', 'Lung', 'Sarcoma', 'Lymphoma', 'Rectum', 'Lung', 'Laryngeal ', 'Carcinoma',
+    'Head, Neck', 'Melanoma', 'Colon', 'Colon, Lung', "Lymphoma ", 'Lung', 'Lung', 'Melanoma ', 'Lung', 'Breast',
+    'Lung', 'Sarcoma', 'Lymphoma', 'Lung', 'Melanoma', 'Breast', 'Breast, Carcinoma', 'Tonsils', 'Esophagus',
+    'multiple primary cancers', 'Lymphoma', 'Lymphoma', 'Melanoma', 'Sarcoma', 'solitary fibrous tumor, kidneys',
+    'Lung', 'Carcinoma', 'Carcinoma', 'Lung', 'Lung', 'Lung', 'Cervical', 'reactive mesothelial cells', 'Carcinoma',
+    'Lung', 'Lung', 'focal fibrosis', 'Carcinoma', 'Carcinoma', 'Brain', 'Carcinoma', 'Lung', 'Lung', 'Lung',
+    'Lung', 'Carcinoma', 'Carcinoma', 'carcinoma', 'Carcinoma', 'Carcinoma', 'Metastatic', 'Lung', 'Carcinoma',
+    'Carcinoma', 'Lung', 'Carcinoma', 'Lung', 'Carcinoma', 'Lung', 'Carcinoma'
+]
+
+with open("primary.txt", "w") as file:
+    for item in primary:
+        file.write(item + "\n")
+
+
+%store primary
